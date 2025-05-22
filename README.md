@@ -1,16 +1,32 @@
 # Simple-STOPWATCH-in-Web
+
 Simple Stopwatch with Seconds only
 A simple and sleek stopwatch application built using React.js, designed to count time in seconds only. Whether you're tracking short tasks or measuring quick activities, this stopwatch offers a clean and intuitive experience.
 
 
-⚛️ Built With
+# Built With
 React.js – Functional component-based architecture
 
 CSS – Clean and minimal styling
 
 JavaScript (ES6) – Timer logic with setInterval
 
-🚀 Features
+# Project Structure
+
+react-stopwatch-seconds/
+│
+├── public/
+│   └── index.html
+|   |__ index.css
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+├── main.js
+└── README.md
+
+
+ Features
 Start, Stop, and Reset functionality
 
 Time measured in seconds only
@@ -22,14 +38,13 @@ Responsive dark theme user interface
 Installation
 bash
 Copy
-Edit
-git clone https://github.com/yourusername/react-stopwatch-seconds.git
-cd react-stopwatch-seconds
+Edit on terminal
+cd react-useref-project
 npm install
 npm start
-The app will run locally at http://localhost:3000.
+The app will run locally at http://localhost:5177.
 
-Applications
+#Applications
 This stopwatch is suitable for various real-world uses:
 
 Fitness & Sports – Time workouts, circuits, or rest periods
@@ -42,17 +57,3 @@ Cooking – Track short kitchen tasks like boiling or steeping
 
 Gaming – Turn-based timers or short challenges
 
-# Project Structure
-pgsql
-Copy
-Edit
-react-stopwatch-seconds/
-│
-├── public/
-│   └── index.html
-├── src/
-│   ├── App.js
-│   ├── index.js
-│   └── App.css
-├── main.js
-└── README.md
