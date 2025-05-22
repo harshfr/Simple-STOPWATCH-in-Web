@@ -14,19 +14,20 @@ JavaScript (ES6) – Timer logic with setInterval
 # Project Structure
 
 react-stopwatch-seconds/
-│
-├── public/
-│   └── index.html
-|   |__ index.css
-├── src/
-│   ├── App.js
-│   ├── index.js
-│   └── App.css
-├── main.js
-└── README.md
+public/
+index.html
+index.css
+main.jsx
+src/
+app.css
+app.jsx
+index.jsx
+
+README.md
+Stopwatch.png
 
 
- Features
+# Features
 Start, Stop, and Reset functionality
 
 Time measured in seconds only
@@ -44,7 +45,7 @@ npm install
 npm start
 The app will run locally at http://localhost:5177.
 
-#Applications
+# Applications
 This stopwatch is suitable for various real-world uses:
 
 Fitness & Sports – Time workouts, circuits, or rest periods
