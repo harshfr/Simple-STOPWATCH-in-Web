@@ -6,29 +6,6 @@ import { useRef } from 'react';
 
 function App() {
   
-
-  // const [count,setCount]= useState(0);
-  // let val= useRef(0);
-
-  // let btnRef = useRef();
-
-  // function handleIncrement(){
-  //   val.current = val.current + 1;
-  //   console.log("Value of Val: ", val.current);
-  //   setCount(count +1);
-  // }
-
-
-  //it runs on every render
-  // useEffect(() => {
-  //   console.log("mai firse render hua hu")
-  // }, )
-
-  // function ChangeColor(){
-  //  btnRef.current.style.backgroundColor = "Blue";
-  // }
-  
-
    const [time, setTime]= useState(0);
      
    let timerRef= useRef(null);
@@ -71,18 +48,7 @@ function App() {
     <button onClick={resetTimer}>
       Reset
     </button>
-      {/* <button ref={btnRef} 
-      onClick={handleIncrement}>
-      Increment
-      </button>
-      <br/>
-       <br/>
-       <button  onClick={ChangeColor}>Change Color of 1st Button</button>  
-       <br/>
-<br/>
-      <div>
-        Count: {count}
-      </div> */}
+   
     </div>
   )
 }
